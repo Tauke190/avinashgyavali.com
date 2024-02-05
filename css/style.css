@@ -2072,6 +2072,10 @@ body::-webkit-scrollbar-thumb{
 	width: 70%;
 	padding-right: 40px;
 }
+
+.elisc_tm_modalbox .main_details .textboxblog{
+	width: 100%;
+}
 .elisc_tm_modalbox .main_details .textbox p{
 	margin-bottom: 10px;
 	opacity: .8;
