@@ -927,7 +927,6 @@ body::-webkit-scrollbar-thumb{
 	width: 100%;
 	float: left;
 	background-color: #F3F9FF;
-	padding: 100px 0px 70px 0px;
 }
 .elisc_tm_experience .popup_image{
 	display: none;
@@ -960,20 +959,29 @@ body::-webkit-scrollbar-thumb{
 .elisc_tm_experience .list{
 	width: 100%;
 	float: left;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 .elisc_tm_experience .list ul{
 	margin: 0px 0px 0px -30px;
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
+	flex-direction: column; /* Stack items vertically */
+    flex-wrap: nowrap;
 }
 .elisc_tm_experience .list ul li{
-	margin: 0px 0px 40px 0px;
+	margin: 0px 0px 20px 0px;
 	padding-left: 30px;
-	width: 50%;
+	width: 105%;
 	float: left;
 }
+.elisc_tm_experience .list ul li .list_inner .list_image{
+	width: 25%; /* The image takes 25% of the available width */
+   
+}
 .elisc_tm_experience .list ul li .list_inner{
+	display: flex; /* Use flexbox to align items side by side */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px;
 	width: 100%;
 	clear: both;
 	float: left;
@@ -990,6 +998,11 @@ body::-webkit-scrollbar-thumb{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+.elisc_tm_experience .list ul li .list_inner .content{
+	width: 75%; /* The content takes 75% of the available width */
+}
+
 .elisc_tm_experience .list ul li .list_inner:hover{
 	transform: translateY(-5px);
 }
@@ -1616,6 +1629,12 @@ body::-webkit-scrollbar-thumb{
 	margin: 0px 0px 40px 0px;
 	width: 100%;
 	float: left;
+}
+.elisc_tm_news .list ul li .list_image{
+	padding-right: 20px;
+	width: 250px;
+	height: 150px;
+
 }
 .elisc_tm_news .list ul li:last-child{
 	margin-bottom: 0px;
