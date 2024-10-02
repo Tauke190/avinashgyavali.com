@@ -1310,12 +1310,12 @@ body::-webkit-scrollbar-thumb{
 .elisc_tm_portfolio .portfolio_list{
 	width: 100%;
 	float: left;
-	margin-top: 40px;
-	margin-bottom: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .elisc_tm_portfolio .portfolio_list ul{
 	margin: 0px;
-	margin-bottom: 65px;
+	margin-bottom: 0px;
 }
 .elisc_tm_portfolio .portfolio_list ul li{
 	margin: 0px;
@@ -2467,10 +2467,10 @@ body::-webkit-scrollbar-thumb{
 	visibility: visible;
 }
 .dodo_tm_one_page_wrapper .elisc_tm_portfolio{
-	padding-top: 120px;
+	padding-top: 10px;
 }
 .dodo_tm_one_page_wrapper .elisc_tm_news{
-	padding-top: 120px;
+	padding-top: 10px;
 }
 .dodo_tm_one_page_wrapper .elisc_tm_sticky_section{
 	top: 0px;
@@ -2588,8 +2588,8 @@ body::-webkit-scrollbar-thumb{
 	.elisc_tm_news{padding-top: 85px;}
 	.elisc_tm_sticky_section{top: 85px;}
 	.elisc_tm_contact{padding-top: 85px;}
-	.dodo_tm_one_page_wrapper .elisc_tm_news{padding-top: 85px;}
-	.dodo_tm_one_page_wrapper .elisc_tm_portfolio{padding-top: 85px;}
+	.dodo_tm_one_page_wrapper .elisc_tm_news{padding-top: 0px;}
+	.dodo_tm_one_page_wrapper .elisc_tm_portfolio{padding-top: 0px;}
 	.elisc_tm_modalbox .box_inner{width: 800px;}
 	.elisc_tm_modalbox .description_wrap{padding: 40px;}
 	.elisc_tm_modalbox .description_wrap:before{height: 40px;}
